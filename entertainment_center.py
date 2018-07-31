@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+# Create movie objects
 jurassic_park = media.Movie("Jurassic Park",
                         "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
                         "https://www.youtube.com/watch?v=f5C7dqrAItM")
@@ -21,7 +22,6 @@ the_good_dinosaur = media.Movie("The Good Dinosaur",
                         "https://upload.wikimedia.org/wikipedia/en/8/80/The_Good_Dinosaur_poster.jpg",
                         "https://www.youtube.com/watch?v=O-RgquKVTPE")
 
-
 land_of_the_lost = media.Movie("Land of the Lost",
                         "https://upload.wikimedia.org/wikipedia/en/9/99/Land_of_the_Lost_poster.jpg",
                         "https://www.youtube.com/watch?v=JFCDEajQwC0")
@@ -38,5 +38,8 @@ dinosaurs_giants_of_patagonia = media.Movie("Dinosaurs: Giants of Patagonia",
                         "https://upload.wikimedia.org/wikipedia/en/f/f5/Dinosaurs_-_Giants_of_Patagonia_Poster.png",
                         "https://www.youtube.com/watch?v=OZ35NJk75bQ")
 
+# Store each movie object in a movies list
 movies = [jurassic_park, the_lost_world, dinosaur, were_back, the_good_dinosaur, land_of_the_lost, ice_age_dawn_of_the_dinosaurs, the_lost_world_2001, dinosaurs_giants_of_patagonia]
+
+# Use the open_movies_page function in fresh_tomatoes.py to generate the html website
 fresh_tomatoes.open_movies_page(movies)
