@@ -9,7 +9,7 @@ main_page_head = '''
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>Dinosaur Movies!</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -19,6 +19,16 @@ main_page_head = '''
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            background-color: black;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #8B0000;
+            font-family: "Impact";
+        }
+        .navbar-brand {
+            color: #8B0000 !important;
+            font-size: 40px;
+            font-family: "Impact";
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -40,7 +50,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #E9D0D0;
             cursor: pointer;
         }
         .scale-media {
@@ -107,7 +117,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Dinosaur Movies!</a>
           </div>
         </div>
       </div>
