@@ -1,5 +1,13 @@
-# Project 1: Movie Trailer Website - Dinosaur Movies
+# Project 1: Movie Trailer Website: Dinosaur Movies - Shawn Clover
 This is project 1 for the Udacity Full Stack Nanodegree. It uses Python to generate a movie trailer website for my daughter's favorite dinosaur movies.
+
+## What is Does
+This is a Python program that takes titles, box art, and YouTube trailers and generates an html file that opens in the user's web browser. The web site displays movie titles and box art and displays the YouTube trailer when each of the box arts are clicked.
+
+## Required Libraries and Dependencies
+The following must be installed:
+- Python 2.*.
+- A modern web browser.
 
 ## Files Included
 - media.py: this creates a Python movie class for movie properties including titles, box art, and YouTube trailers
